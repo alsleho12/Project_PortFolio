@@ -21,38 +21,39 @@ html,body{
 #conts1>a{
     position: relative;
     display: block;
-    width: 65px;
-    height: 65px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #000;
 }
 
 .web1{
-    top:467px;
-    left: 340px;
+    top:523px;
+    left: 332px;
 }
 
 .web2{
-    top:312px;
-    left: 646px;
+    top:363px;
+    left: 641px;
 }
 
 .web3{
-    top:486px;
-    left: 865px;
+    top:533px;
+    left: 862px;
 }
 
 .web4{
-    top:48px;
-    left: 952px;
+    top: 86px;
+    left: 950px;
 }
 
 .web5{
-    top:134px;
+    top:168px;
     left: 1369px;
 }
 
 .web6{
-    top:241px;
-    left: 1477px;
+    top:274px;
+    left: 1480px;
 }
 
 #conts2{
