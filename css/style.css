@@ -1,0 +1,201 @@
+@charset "utf-8";
+
+/* All Mobile Code */
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#wrap{
+    width: 100%;
+    height: 100%;
+}
+
+#conts1{
+    width: 100%;
+    height: 100%;
+    background: url("../images/main.png") no-repeat center / cover ;
+}
+
+#conts1>a{
+    position: relative;
+    display: block;
+    width: 65px;
+    height: 65px;
+}
+
+.web1{
+    top:467px;
+    left: 340px;
+}
+
+.web2{
+    top:312px;
+    left: 646px;
+}
+
+.web3{
+    top:486px;
+    left: 865px;
+}
+
+.web4{
+    top:48px;
+    left: 952px;
+}
+
+.web5{
+    top:134px;
+    left: 1369px;
+}
+
+.web6{
+    top:241px;
+    left: 1477px;
+}
+
+#conts2{
+    width: 100%;
+    height: 100%;
+    background: url("../images/profile.png") no-repeat center / cover ;
+}
+
+#conts3{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: url("../images/port1.png") no-repeat center / cover ;
+}
+
+#conts4{
+    width: 100%;
+    height: 100%;
+    background: url("../images/port2.png") no-repeat center / cover ;
+}
+
+#conts5{
+    width: 100%;
+    height: 100%;
+    background: url("../images/port3.png") no-repeat center / cover ;
+}
+
+#conts6{
+    width: 100%;
+    height: 100%;
+    background: url("../images/port4.png") no-repeat center / cover ;
+}
+
+#conts7{
+    width: 100%;
+    height: 100%;
+    background: url("../images/port5.png") no-repeat center / cover ;
+}
+
+#conts8{
+    width: 100%;
+    height: 100%;
+    background: url("../images/port6.png") no-repeat center / cover ;
+}
+
+.cweb1, .cweb2,.cweb3,
+.cweb4, .cweb5,.cweb6{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cweb1>li, .cweb2>li, .cweb3>li,
+.cweb4>li, .cweb5>li, .cweb6>li{
+    width: 100%;
+    height: auto;
+}
+
+.cweb1>li>a, .cweb2>li>a, .cweb3>li>a,
+.cweb4>li>a, .cweb5>li>a, .cweb6>li>a{
+    display: block;
+    position: relative;
+    top:830px;
+    left: 780px;
+    width: 130px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid #000;
+    border-radius: 12px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.cweb4>li>a, .cweb6>li>a{
+    left:880px;
+}
+
+
+
+
+
+
+
+#conts9{
+    width: 100%;
+    height: 150px;
+    background: url("../images/footer.png") no-repeat center / cover ;
+}
+
+
+#pagerBtn{
+    position: fixed;
+    right: 50px;
+    top:50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: auto;
+}
+
+#pagerBtn li{
+    margin-bottom: 18px;
+}
+
+#pagerBtn a{
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #ccc;
+}
+
+#pagerBtn a:hover{
+    background:brown;
+}
+
+
+#gnb{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 60px;
+    background: rgba(0,0,0,0.5);
+}
+
+#gnb>ul{
+    width:1000px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#gnb a{
+    display: block;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 20px;
+    color:#fff;
+
+}
